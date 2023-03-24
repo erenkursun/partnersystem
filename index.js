@@ -39,7 +39,7 @@ require("./events/ready.js")
 
 const modal = new ModalBuilder()
 .setCustomId('form')
-.setTitle('Godzilla - Partner Text!')
+.setTitle('Partner Text!')
   const a1 = new TextInputBuilder()
   .setCustomId('yazi')
   .setLabel('Partner Text')

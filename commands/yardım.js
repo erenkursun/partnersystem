@@ -6,9 +6,9 @@ const embed = new Discord.EmbedBuilder()
 message.channel.send({embeds: [embed]})
 };
 exports.conf = {
-  aliases: []
+  aliases: ["ph", "partner-system"]
 };
 
 exports.help = {
-  name: "yardım"
+  name: "partner-help"
 };
